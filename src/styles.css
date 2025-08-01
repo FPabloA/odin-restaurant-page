@@ -41,14 +41,16 @@ header {
     margin: 0px 25px;
 }
 
-.home-title {
+.home-title,
+.about-title {
     color: white;
     font-family: 'Bitcount Prop Single';
     font-size: 64px;
     margin-top: 25px;
 }
 
-.home-section {
+.home-section,
+.about-section {
     display: flex;
     flex-direction: column;
     font-family: Roboto;
@@ -62,7 +64,8 @@ header {
     gap: 15px;
 }
 
-.home-section-title {
+.home-section-title,
+.about-section-title {
     font-size: 32px;
     font-weight: bold;
 }

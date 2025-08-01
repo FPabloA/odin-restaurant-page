@@ -3,12 +3,12 @@ const lorem = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima n
 const hoursOfOp = ["Sunday: 8am - 8pm", "Monday: 6am - 6pm", "Tuesday: 6am - 6pm", "Wednesday: 6am - 6pm", "Thursday: 6am - 10pm", "Friday: 6am - 10pm", "Saturday: 8am - 10pm"];
 
 
-//clear out content currently in the main display div
-function clearContent () {
-    while (contentDiv.firstChild) {
-        contentDiv.removeChild(contentDiv.firstChild);
-    }
-}
+// //clear out content currently in the main display div
+// function clearContent () {
+//     while (contentDiv.firstChild) {
+//         contentDiv.removeChild(contentDiv.firstChild);
+//     }
+// }
 
 function createHomeTitle (restaurantName) {
     const titleDiv = document.createElement("div");
@@ -63,7 +63,13 @@ function createHomeHours (title, hours) {
 }
 
 function loadHome () {
-    clearContent()
+    // //change active button
+    // const homeButton = document.querySelector("#home-btn");
+    // const menuButton = document.querySelector("#menu-btn");
+    // const aboutButton = document.querySelector("#about-btn");
+    // homeButton.className = "active-nav-btn";
+    // menuButton.className = "nav-btn";
+    // aboutButton.className = "nav-btn";
 
     //generate title for home page
     const titleDiv = createHomeTitle("Imaginal Cafe");
