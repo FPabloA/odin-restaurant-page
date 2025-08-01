@@ -1,2 +1,4 @@
 import "./styles.css"
-console.log("script is working");
+import loadHome from "./home";
+
+loadHome()

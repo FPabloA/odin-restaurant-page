@@ -1,3 +1,85 @@
 body {
-    background-color: blue;
+    background-image: url(./images/background.jpg);
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.nav-btn {
+    padding: 10px 20px;
+    font-size: 32px;
+    margin: 50px 15px;
+    background-color: transparent;
+    color: #aa0568;
+    border: #aa0568 solid;
+    border-radius: 15px;
+    font-family: 'Bitcount Prop Single';
+    cursor: pointer;;
+}
+
+.active-nav-btn {
+    padding: 10px 20px;
+    font-size: 42px;
+    margin: 25px 15px;
+    font-family: 'Bitcount Prop Single';
+    background-color: #aa0568;
+    border: #aa0568 solid;
+    border-radius: 15px;
+}
+
+#content {
+    display: flex;
+    flex-direction: column;
+    border: #aa056860 solid;
+    background-color: transparent;
+    border-radius: 20px;
+    align-items: center;
+    margin: 0px 25px;
+}
+
+.home-title {
+    color: white;
+    font-family: 'Bitcount Prop Single';
+    font-size: 64px;
+    margin-top: 25px;
+}
+
+.home-section {
+    display: flex;
+    flex-direction: column;
+    font-family: Roboto;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.548);
+    box-shadow: 0 30px 40px rgba(0, 0, 0, 0.397);
+    border-radius: 20px;
+    width: 60%;
+    margin: 50px 75px;
+    padding: 40px 60px;
+    gap: 15px;
+}
+
+.home-section-title {
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.home-section-content {
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+#home-hours {
+    align-items: center;
+    gap: 15px;
+}
+
+
+.home-section-subtitle {
+    font-size: 24px;
+    font-weight: bold;
 }
