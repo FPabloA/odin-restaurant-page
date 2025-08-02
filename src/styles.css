@@ -42,7 +42,8 @@ header {
 }
 
 .home-title,
-.about-title {
+.about-title,
+.menu-title {
     color: white;
     font-family: 'Bitcount Prop Single';
     font-size: 64px;
@@ -84,5 +85,47 @@ header {
 
 .home-section-subtitle {
     font-size: 24px;
+    font-weight: bold;
+}
+
+.menu-subtitle {
+    color: white;
+    font-family: 'Bitcount Prop Single';
+    font-size: 48px;
+    margin-top: 25px;
+    border-bottom: #aa0568 solid;
+}
+
+.menu-section {
+    display: flex;
+    font-family: Roboto;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.548);
+    box-shadow: 0 30px 40px rgba(0, 0, 0, 0.397);
+    border-radius: 20px;
+    width: 60%;
+    margin: 50px 75px;
+    padding: 40px 60px;
+    gap: 15px;
+}
+
+.menu-img {
+    border: #aa0568 solid;
+    height: 150px;
+    width: 150px;
+    border-radius: 15px;
+    margin-right: 20px;
+}
+
+.menu-item-text {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 60%;
+}
+
+.menu-item-title,
+.menu-item-price {
+    font-size: 32px;
     font-weight: bold;
 }
